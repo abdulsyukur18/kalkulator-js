@@ -19,18 +19,8 @@ for (tombol of button) {
         }
 
         //ketika tombol (=) samadengan di klik maka akan menampilkan hasil
-        // kemudian dalam 10 detik hasil akan hilang dan layar akan menjadi kosong
         else if (pencetTombol == "=") {
             layar.value = eval(layarisi);
-            
-            // for (tombol of button) {
-            //     tombol.addEventListener('click', (el) => {
-            //         let pencetTombol = el.target.innerText;
-
-            // setTimeout(function() {
-            //     layarisi = "";
-            //     layar.value = layarisi;
-            // }, 10000);
         }
         
         //selain tombol (C) dan (=) maka tombol yang di klik akan tampil di layar
